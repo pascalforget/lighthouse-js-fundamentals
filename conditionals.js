@@ -1,27 +1,24 @@
-const raining = true;
-const cold = true;
+// const raining = true;
+// const cold = true;
 
-if (raining) {
-  console.log("N'oublie pas ton parapluie!");
-}
+// if (raining) {
+//   console.log("N'oublie pas ton parapluie!");
+// }
 
-if (cold) {
-  console.log("N'oublie pas ton foulard!");
-}
+// if (cold) {
+//   console.log("N'oublie pas ton foulard!");
+// }
 
-// deuxième version avec conditionnelle
+// // deuxième version avec conditionnelle
 
-if (cold) {
-    console.log("Il fera vraiment froid!");
-  } else {
-    console.log("Chandail a manches courtes!");
-  }
+// if (cold) {
+//     console.log("Il fera vraiment froid!");
+//   } else {
+//     console.log("Chandail a manches courtes!");
+//   }
   
 
-console.log("Tu peux maintenant sortir!");
-
-
-
+// console.log("Tu peux maintenant sortir!");
 
 //Troisième version avec plus de conditions Else if
 
@@ -36,4 +33,22 @@ if (temperature < 0) {
   }
   
   console.log("Now you're ready to go outside!");
+  
+
+
+
+// const isCitizen = true;
+//const age = 26;
+
+//if (isCitizen && age > 18) {
+//  console.log("You are eligible to vote.");
+//}
+
+//if (temperature < -40 || temperature > 40) {
+//    console.log("Maybe going outside isn't such a great idea…");
+//  }
+  
+// if (!raining) {
+//     console.log("Leave your umbrella at home!");
+//   }
   
